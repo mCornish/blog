@@ -4,6 +4,7 @@ title: 'This Time Next Year:'
 tags:
     - holiday
 ---
+
 ## I'll be a blogger (again)
 After reading [this post](http://alistapart.com/column/write-what-you-know-now?utm_source=CSS-Weekly&utm_campaign=Issue-194&utm_medium=email), I was motivated to start blogging about development/design. I've had several blogs in the past, so I'm not stranger to this world. However, I don't consider myself an authority on development or design, so I've been reluctant. The plan is to keep this going throughout the year and, ideally, make it into something useful.
 
