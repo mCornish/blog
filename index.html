@@ -7,7 +7,12 @@ layout: default
     <article class="post">
 
       <h2 class="date">{{ post.date | date: "%B %e, %Y" }}</h2>
-      <h1 class="post__header"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1 class="post__header"><a href="{{ site.baseurl }}{{ post.url }}">
+        {% if post.chapter %}
+          <span class="post__chapter">Chapter {{ post.chapter}} | </span>
+        {% endif %}
+        {{ post.title }}
+      </a></h1>
 
       <div class="entry">
         {{ post.excerpt }}

@@ -3,8 +3,13 @@ layout: default
 ---
 
 <article class="post post--page">
-  <h2 class="date">{{ page.date | date: "%B %e, %Y" }}</h2>
-  <h1 class="post__header">{{ page.title }}</h1>
+  <!-- <h2 class="date">{{ page.date | date: "%B %e, %Y" }}</h2> -->
+  <h1 class="post__header">
+    {% if page.chapter %}
+      <span class="post__chapter">Chapter {{ page.chapter }} | </span>
+    {% endif %}
+    {{ page.title }}
+  </h1>
 
   <div class="entry">
     {{ content }}
