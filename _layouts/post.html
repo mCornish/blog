@@ -9,6 +9,9 @@ layout: default
       <span class="post__chapter">Chapter {{ page.chapter }} | </span>
     {% endif %}
     {{ page.title }}
+    {% if page.subtitle %}
+      <div class="post__subtitle">{{ page.subtitle }}</div>
+    {% endif %}
   </h1>
 
   <div class="entry">

@@ -4,21 +4,25 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
+    <a href="{{ site.baseurl }}{{ post.url }}" class="post">
+      <article>
+        <h2 class="date">{{ post.date | date: "%B %e, %Y" }}</h2>
+        <h1 class="post__header">
+          {% if post.chapter %}
+            <span class="post__chapter">Chapter {{ post.chapter}} | </span>
+          {% endif %}
+          {{ post.title }}
+          {% if post.subtitle %}
+            <div class="post__subtitle">{{ post.subtitle }}</div>
+          {% endif %}
+        </h1>
 
-      <h2 class="date">{{ post.date | date: "%B %e, %Y" }}</h2>
-      <h1 class="post__header"><a href="{{ site.baseurl }}{{ post.url }}">
-        {% if post.chapter %}
-          <span class="post__chapter">Chapter {{ post.chapter}} | </span>
-        {% endif %}
-        {{ post.title }}
-      </a></h1>
-
-      <div class="entry">
+      <!-- <div class="entry">
         {{ post.excerpt }}
-      </div>
+      </div> -->
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+      <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
+      </article>
+    </a>
   {% endfor %}
 </div>
