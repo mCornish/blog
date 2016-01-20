@@ -9,7 +9,10 @@ layout: default
         <h2 class="date">{{ post.date | date: "%B %e, %Y" }}</h2>
         <h1 class="post__header">
           {% if post.chapter %}
-            <span class="post__chapter">Chapter {{ post.chapter}} | </span>
+            <span class="post__chapter">Chapter {{ post.chapter }} | </span>
+          {% endif %}
+          {% if post.biblio %}
+            <span class="post__chapter">Bibliography | </span>
           {% endif %}
           {{ post.title }}
           {% if post.subtitle %}
