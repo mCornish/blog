@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 2em 0 .5em;
+  margin: 1em 0 0;
   padding: 0;
 
   @include mobile {
@@ -51,6 +51,7 @@ h1 {
   a {
     color: inherit;
   }
+  margin-top: 2em;
 }
 
 h2 {
@@ -260,8 +261,12 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  display: block;
+  padding: 1em;
   border-bottom: 1px solid $lightGray;
+}
+.posts > .post:hover {
+  background-color: $lightGray;
 }
 
 .posts > .post:last-child {
@@ -289,7 +294,16 @@ nav {
   }
 }
 .post__header {
-  margin-top: 0;
+  margin: 0;
+}
+.post__chapter {
+  font-weight: normal;
+}
+.post__subtitle {
+  font-family: $merriweather-sans;
+  font-weight: normal;
+  font-size: .8em;
+  color: $gray;
 }
 .post--page p:first-child:first-letter {
   font-size: 3em;
