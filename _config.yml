@@ -50,7 +50,7 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-markdown: redcarpet
+# markdown: redcarpet ||Removed to suppress warning
 highlighter: pygments
 permalink: /posts/:title/
 
