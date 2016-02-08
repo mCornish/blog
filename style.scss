@@ -306,7 +306,7 @@ nav {
   font-size: .8em;
   color: $gray;
 }
-.post--page p:first-child:first-letter {
+.post--page p:first-child:not(:last-child):first-letter {
   font-size: 3em;
   font-family: "Courier";
 }
