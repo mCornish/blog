@@ -33,7 +33,10 @@
         </header>
       </div>
     </div>
-
+    
+    {% if page.image %}
+        <img class="image-full" src="{{ page.image }}" alt="" />
+    {% endif %}
     <div id="main" role="main" class="container">
       {{ content }}
     </div>

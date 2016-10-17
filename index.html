@@ -14,6 +14,9 @@ layout: default
           {% if post.biblio %}
             <span class="post__chapter">Bibliography | </span>
           {% endif %}
+          {% if post.appendix %}
+          <span class="post__chapter">Appendix {{ post.appendix }} | </span>
+          {% endif %}
           {{ post.title }}
           {% if post.subtitle %}
             <div class="post__subtitle">{{ post.subtitle }}</div>
