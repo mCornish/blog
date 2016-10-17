@@ -19,10 +19,10 @@ html {
 
 body {
   background: $white;
-  font-family: $merriweather-sans;
+  font-family: $merriweather;
   font-size: 1rem;
-  color: $darkGray;
-  line-height: 1.48;
+  color: $color-text-dark;
+  line-height: 1.8;
 }
 
 .container {
@@ -33,21 +33,20 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $merriweather;
-  color: $darkerGray;
-  font-weight: bold;
+    font-family: $merriweather-sans;
+    color: $darkerGray;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 1.5em 0 .5em;
+    padding: 0;
 
-  line-height: 1.7;
-  margin: 1em 0 0;
-  padding: 0;
-
-  @include mobile {
-    line-height: 1.4;
-  }
+    @include mobile {
+        line-height: 1.4;
+    }
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   a {
     color: inherit;
   }
@@ -55,11 +54,11 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   margin-top: 2em;
 }
 
@@ -76,12 +75,23 @@ h2 + p {
 }
 
 a {
-  color: $blue;
-  text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
-    color: $blue;
-  }
+    color: $color-link;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color .2s;
+}
+a:hover, 
+a:active,
+a:visited:hover,
+a:visited:active {
+    color: $color-brand-1;
+    border-bottom-color: $color-brand-1;
+}
+a:visited {
+  color: $color-link-visited;
+}
+p a {
+    border-bottom: 1px dotted $color-link;
 }
 
 ul, ol {
@@ -252,7 +262,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $color-link;
     }
   }
 }
@@ -306,9 +316,20 @@ nav {
   font-size: .8em;
   color: $gray;
 }
+/*.post*/ .date {
+    font-size: .8em;
+} 
+
+.post p {
+    text-indent: 2em;
+}
 .post--page p:first-child:not(:last-child):first-letter {
   font-size: 3em;
   font-family: "Courier";
+}
+
+.image-full {
+    margin-bottom: 2em;
 }
 
 .wrapper-footer {
@@ -322,6 +343,15 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
+//
+// Overrides
+//
+
+twitterwidget {
+    margin: 2em auto !important;
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
