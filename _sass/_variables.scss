@@ -5,7 +5,9 @@
 
 // Colors
 $color-brand-1: rgb(57,154,234);
+$color-brand-2: rgb(135,102,219);
 $color-text-dark: hsl(0,0,40);
+$color-text-light: hsl(0,0,90);
 $color-link: hsl(0,0,0);
 $color-link-visited: hsl(0,0,60);
 
@@ -57,16 +59,38 @@ $merriweather-sans: "Merriweather Sans", Helvetica, Arial, sans-serif;
 
 // Animations
 @include keyframes(blink) {
-  0% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 1;
-  }
-  71% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
+    0% {
+        background-color: $color-text-dark;
+        color: $color-brand-1;
+    }
+    70% {
+        background-color: $color-text-dark;
+        color: $color-brand-1;
+    }
+    71% {
+        background-color: transparent;
+        color: $color-text-dark;
+    }
+    100% {
+        background-color: transparent;
+        color: $color-text-dark;
+    }
+}
+@include keyframes(blink-hover) {
+    0% {
+        background-color: $color-text-dark;
+        color: $color-brand-1
+    }
+    70% {
+        background-color: $color-text-dark;
+        color: $color-brand-1;
+    }
+    71% {
+        background-color: transparent;
+        color: $color-brand-1;
+    }
+    100% {
+        background-color: transparent;
+        color: $color-brand-1;
+    }
 }

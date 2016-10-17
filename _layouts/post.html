@@ -5,17 +5,17 @@ layout: default
 <article class="post post--page">
     <h1 class="post__header">
         {% if page.chapter %}
-          <span class="post__chapter">Chapter {{ page.chapter }} | </span>
+            <span class="post__chapter">chapter{{ page.chapter }}(</span>
         {% endif %}
         {% if page.biblio %}
-          <span class="post__chapter">Bibliography | </span>
+            <span class="post__chapter">bibliography(</span>
         {% endif %}
         {% if page.appendix %}
-          <span class="post__chapter">Appendix {{ page.appendix }} | </span>
+            <span class="post__chapter">appendix{{ page.appendix }}(</span>
         {% endif %}
-        {{ page.title }}
+        <span class="post__title">{{ page.title }}</span> )
         {% if page.subtitle %}
-          <div class="post__subtitle">{{ page.subtitle }}</div>
+            <div class="post__subtitle">{{ page.subtitle }}</div>
         {% endif %}
     </h1>
     <h2 class="date">{{ page.date | date: "%B %e, %Y" }}</h2>

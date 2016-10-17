@@ -127,12 +127,44 @@ img {
   max-width: 100%;
 }
 
-.logo {
-  font-family: "Courier";
+.site-name {
+    display: inline-block; // Prevent white space after text for .logo:hover
 }
-.logo::after {
-  content: '|';
-  @include animation(blink 1.2s ease infinite);
+.logo, 
+.logo:visited {
+    display: inline-block;
+    font-family: "Courier";
+    font-size: 1.5em;
+    overflow: hidden;
+    color: $color-text-dark;
+}
+.logo__highlight {
+    display: inline-block;
+    position: relative;
+    color: transparent;
+}
+.logo__highlight-nonhover,
+.logo__highlight-hover {
+    position: absolute;
+    top: 0;
+}
+.logo__highlight-nonhover {
+    @include animation(blink 1.2s ease infinite);
+}
+.logo__highlight-hover {
+    left: 100em;
+    @include animation(blink-hover 1.2s ease infinite);
+}
+.logo:hover, 
+.logo:hover:visited {
+    background-color: mix(black, $color-brand-1, 70);
+    color: $color-brand-1;
+}
+.logo:hover .logo__highlight-nonhover {
+    left: 100em;
+}
+.logo:hover .logo__highlight-hover {
+    left: 0;
 }
 
 .about {
@@ -273,11 +305,14 @@ nav {
 
 .posts > .post {
   display: block;
-  padding: 1em;
-  border-bottom: 1px solid $lightGray;
+  padding: 2em 1em;
+  transition: background-color .2s;
 }
 .posts > .post:hover {
-  background-color: $lightGray;
+  background-color: mix(white, $color-brand-1, 80);
+}
+.posts > .post:hover:nth-child(2n) {
+    background-color: mix(white, $color-brand-2, 80);
 }
 
 .posts > .post:last-child {
@@ -304,11 +339,22 @@ nav {
     font-size: 15px;
   }
 }
+
 .post__header {
   margin: 0;
+  font-family: 'Courier';
+  font-weight: normal;
 }
+.posts .post__header {
+    font-size: 2em;
+}
+
 .post__chapter {
   font-weight: normal;
+}
+.post__title {
+    font-weight: bold;
+    font-family: $merriweather-sans;
 }
 .post__subtitle {
   font-family: $merriweather-sans;
@@ -319,6 +365,10 @@ nav {
 /*.post*/ .date {
     font-size: .8em;
 } 
+.posts .date {
+    font-size: 1em;
+    margin-bottom: .5em;
+}
 
 .post p {
     text-indent: 2em;

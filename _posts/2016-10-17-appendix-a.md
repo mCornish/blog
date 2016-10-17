@@ -2,7 +2,7 @@
 layout: post
 appendix: A
 title: "Building APIs"
-subtitle: "What I Learned While Building APIs with ExpressJS"
+subtitle: "Lessons From Building Express APIs"
 image: "/images/appendix-a.jpg"
 tags:
   - Appendix

@@ -8,19 +8,19 @@ layout: default
       <article>
         <h2 class="date">{{ post.date | date: "%B %e, %Y" }}</h2>
         <h1 class="post__header">
-          {% if post.chapter %}
-            <span class="post__chapter">Chapter {{ post.chapter }} | </span>
-          {% endif %}
-          {% if post.biblio %}
-            <span class="post__chapter">Bibliography | </span>
-          {% endif %}
-          {% if post.appendix %}
-          <span class="post__chapter">Appendix {{ post.appendix }} | </span>
-          {% endif %}
-          {{ post.title }}
-          {% if post.subtitle %}
-            <div class="post__subtitle">{{ post.subtitle }}</div>
-          {% endif %}
+            {% if post.chapter %}
+                <span class="post__chapter">chapter{{ post.chapter }}(</span>
+            {% endif %}
+            {% if post.biblio %}
+                <span class="post__chapter">bibliography(</span>
+            {% endif %}
+            {% if post.appendix %}
+                <span class="post__chapter">appendix{{ post.appendix }}(</span>
+            {% endif %}
+            <span class="post__title">{{ post.title }}</span> )
+            {% if post.subtitle %}
+                <div class="post__subtitle">{{ post.subtitle }}</div>
+            {% endif %}
         </h1>
 
       <!-- <div class="entry">
