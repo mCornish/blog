@@ -33,6 +33,18 @@
 
 &lt;p&gt;The basic process for each project was the same: Set up with npm/Yarn, create endpoints with Express, manage data with Mongo (if necessary), and deploy to Heroku. After determining that basic process, all of the projects became much easier; I even completed a couple of them on the same day. It took some time to get to that point, though. Here are some reasons why.&lt;/p&gt;
 
+&lt;p&gt;You can view the final products in these repositories:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mCornish/timestamp&quot;&gt;Timestamp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mCornish/header-parser&quot;&gt;Header Parser&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mCornish/url-shorterner&quot;&gt;URL Shortener&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mCornish/image-search&quot;&gt;Image Search&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mCornish/file-metadata&quot;&gt;File Metadata&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;span id=&quot;yarn&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;yarn&quot;&gt;Yarn&lt;/h2&gt;
