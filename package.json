@@ -4,7 +4,7 @@
   "description": "Mike Cornish's Blog",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d ."
+    "deploy": "gh-pages -d _site"
   },
   "repository": {
     "url": "https://github.com/mCornish/blog.git",
