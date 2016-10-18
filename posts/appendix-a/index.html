@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lessons From Building Express APIs - devStory – Tales from a developer/writer</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@MikeWCornish" />
+
+    
+      <meta name="description" content="A4: Self-reflection helps you keep doing the good things and get rid of the bad things. That&#39;s blogging for me.#CodeNewbie https://t.co/iCmLVkvBuT&mdash; Mike Cornish (@MikeWCornish) October 13, 2016
+
+
+" />
+      <meta property="og:description" content="A4: Self-reflection helps you keep doing the good things and get rid of the bad things. That&#39;s blogging for me.#CodeNewbie https://t.co/iCmLVkvBuT&mdash; Mike Cornish (@MikeWCornish) October 13, 2016
+
+
+" />
+      <meta name="twitter:description" content="A4: Self-reflection helps you keep doing the good things and get rid of the bad things. That&#39;s blogging for me.#CodeNewbie https://t.co/iCmLVkvBuT&mdash; Mike Cornish (@MikeWCornish) October 13, 2016
+
+
+" />
+    
+    <meta name="author" content="devStory" />
+
+    
+      
+        <meta property="og:title" content="Lessons From Building Express APIs" />
+        <meta property="twitter:title" content="Lessons From Building Express APIs" />
+      
+    
+
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="devStory - Tales from a developer/writer" href="/feed.xml" />
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700|Merriweather+Sans:700,400italic,400' rel='stylesheet' type='text/css'>
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <!--<a href="/" class="site-avatar"><img src="https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png" /></a>-->
+
+          <div class="site-info">
+              <h1 class="site-name"><a class="logo" href="/" data-logo>devStory</a>
+<script type="text/javascript" src="/js/logo.js"></script>
+<script type="text/javascript">
+    initLogo();
+</script>
+</h1>
+            <p class="site-description">Tales from a developer/writer</p>
+          </div>
+
+          <nav>
+            <a class="about" href="/about">mikeCornish</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+    
+    
+        <img class="image-full" src="/images/appendix-a.jpg" alt="" />
+    
+    <div id="main" role="main" class="container">
+      <article class="post post--page">
+    <h1 class="post__header">
+        
+        
+        
+            <span class="post__chapter">appendixA(</span>
+        
+        <span class="post__title">Building APIs</span> )
+        
+            <div class="post__subtitle">Lessons From Building Express APIs</div>
+        
+    </h1>
+    <h2 class="date">October 17, 2016</h2>
+
+    <div class="entry">
+        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">A4: Self-reflection helps you keep doing the good things and get rid of the bad things. That&#39;s blogging for me.<a href="https://twitter.com/hashtag/CodeNewbie?src=hash">#CodeNewbie</a> <a href="https://t.co/iCmLVkvBuT">https://t.co/iCmLVkvBuT</a></p>&mdash; Mike Cornish (@MikeWCornish) <a href="https://twitter.com/MikeWCornish/status/786382898807107584">October 13, 2016</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>I owe most of my ability as a web developer to bloggers who share their knowledge and experiences. You might wonder why someone would offer valuable information freely, but I’ve found that everyone benefits from sharing information, including the person doing the sharing.</p>
+
+<p>In order to articulate a process or experience, you have to review it in your mind. You have to remember, organize, and filter it so that it makes sense and is useful to other people. That’s why I want to start writing about the things that I build. Yes, I absolutely want other developers to benefit from my experiences, but I’ll get a lot out of it as well.</p>
+
+<p>This is the first in a series of “appendices” which will detail the lessons I learn while working on different projects. I’ve already written a couple of these types of blog posts (<a href="https://medium.com/@MikeCornish/what-i-learned-while-creating-an-animated-chart-with-d3-js-f4882b79914c#.jksvcdqxg">here</a> and <a href="https://medium.com/@MikeCornish/im-currently-working-my-way-through-the-free-code-camp-assignments-and-i-recently-completed-one-cd086f637e3a#.qvyu3qh7j">here</a>), but now I’m ready to make it official. Let’s get this started!</p>
+
+<h2 id="topics">Topics</h2>
+<ol>
+  <li><a href="#overview">Overview</a></li>
+  <li><a href="#yarn">Yarn</a></li>
+  <li><a href="#express">ExpressJS</a></li>
+  <li><a href="#mongo">MongoDB</a></li>
+  <li><a href="#heroku">Heroku</a></li>
+</ol>
+
+<p><span id="overview"></span></p>
+
+<h2 id="overview">Overview</h2>
+<p>I’m going to be detailing the lessons I learned while completing 5 API projects from the <a href="https://www.freecodecamp.com">Free Code Camp</a> curriculum. These included building microservices for converting timestamps to dates, parsing request headers, shortening URLs, returning Google image search results, and returning metadata from an uploaded file. Most of the end results are fairly useless, but the process of building them was a fantastic learning experience.</p>
+
+<p>The basic process for each project was the same: Set up with npm/Yarn, create endpoints with Express, manage data with Mongo (if necessary), and deploy to Heroku. After determining that basic process, all of the projects became much easier; I even completed a couple of them on the same day. It took some time to get to that point, though. Here are some reasons why.</p>
+
+<p><span id="yarn"></span></p>
+
+<h2 id="yarn">Yarn</h2>
+<p>While I was working on these projects, Facebook announced the release of <a href="https://yarnpkg.com/">Yarn</a>, a major competitor for npm’s spot as king (queen?) of package management. I won’t pretend to be an expert on the subject, but I do appreciate the waves the announcement made in the community. My Twitter feed was absolutely tangled with Yarn on release day. It’s the first time I’ve seen something affect so much of the web development community in such a dramatic way.</p>
+
+<p>For someone like me, who never got deep into npm, it’s easy to equate Yarn with a new syntax for npm; the syntax is the biggest change I’ve noticed so far.</p>
+
+<p>“Oh, so now it’s <strong>add</strong> instead of <strong>install</strong>. That’s confus—I mean, that’s nice.”</p>
+
+<p>It’s obvious that Yarn is much more than a new syntax, but I won’t pretend to be as affected as more advanced developers. Even after reading <a href="https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/">Facebook’s explanation</a> of why Yarn exists, I can still only muster so much excitement. All the same, I look forward to seeing how the community adapts and whether npm responds.</p>
+
+<h3 id="yarn-resources">Yarn Resources</h3>
+
+<p><a href="https://yarnpkg.com/">Yarn Official Website</a></p>
+
+<p><a href="https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/">Facebook Announcement</a></p>
+
+<p><span id="express"></span></p>
+
+<h2 id="expressjs">ExpressJS</h2>
+<p>I used Express years ago, back when I was first exposed to web apps. Back then, I only used it for routing; I didn’t even know what APIs were. Now, after building several APIs with Express, I’m super interested in what kind of tasks I can simplify with APIs.</p>
+
+<p>The <a href="https://github.com/azat-co/expressworks">ExpressWorks</a> lessons were all I needed to get up and running with Express. It was tempting to skip over some of the lessons that seemed like I could just read and say, “Yeah, I understand that,” but I would highly advise actually taking the time to complete each lesson. There are some speedbumps I could have circumvented if I’d paid closer attention to ExpressWorks.</p>
+
+<p>Speaking of speedbumps: I encountered an annoying issue where I would receive a request from the /favicon.ico route every time I refreshed my page. A Google search revealed that this is a somewhat common issue with Express that can be remedied with a one-liner:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>app.use(‘/favicon.ico, res =&gt; res.sendStatus(200));
+</code></pre>
+</div>
+
+<p>Even though Express is an amazing tool that is used all over the place, I don’t have much else to say. It’s satisfyingly straightforward (at least in terms of building APIs) and you can learn everything you need by completing ExpressWorks, then referencing <a href="http://expressjs.com/en/api.html">Express’s documentation</a> when you need it.</p>
+
+<h3 id="expressjs-resources">ExpressJS Resources</h3>
+
+<p><a href="https://github.com/azat-co/expressworks">ExpressWorks</a></p>
+
+<p><a href="http://expressjs.com/en/api.html">Express API Reference</a></p>
+
+<p><span id="mongo"></span></p>
+
+<h2 id="mongodb">MongoDB</h2>
+<p>I’ve used Mongo quite a bit for web app development. However, the bulk of my experience comes from using it with MeteorJS, where it is somewhat abstracted. Setting up a project from scratch to use Mongo with Express was a very different experience from using it with Meteor.</p>
+
+<p><a href="https://gist.github.com/iksose/9401758">This tutorial</a> was very helpful in getting me off the ground. For me, the most complicated part was figuring out the best way to connect to Mongo in relation to calling my API functions. Ultimately, I connected in index.js and set my endpoints in the callback function, passing in a database object to my API functions:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>MongoClient.connect(MONGO_URL, (err, db) =&gt; {
+    if (err) {
+        console.log("Unable to connect to Mongo.");
+        process.exit(1);
+    } else {
+        app.get('/foo', fooFunc.bind(null, db));
+        app.get('/bar', barFunc.bind(null, db));
+
+        app.listen(app.get('port'), () =&gt; {
+            console.log('Node app is running on port', app.get('port'));
+        });
+    }
+});
+</code></pre>
+</div>
+
+<p>After that, the next big problem was deployment. I used mLab to host my database. Once you create a new database in mLab, you are provided with a URL through which to connect to your database. Simple, right? Not quite. The URL includes a username and password, which you’ll obviously want to keep secret. So, you need your code to use a URL without actually containing the URL. The solution? Environment variables:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># On Mac/Linux
+export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb”
+</code></pre>
+</div>
+
+<p><a href="https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Using-MongoDB-And-Deploying-To-Heroku">This guide</a> covers everything I needed to know, but I missed one detail: When you set an environment variable in a terminal, you have to use the same terminal window to start your server and use the variable. Since I’m generally using at least two different terminal instances at any given time, this was a huge pain for me. Twice, I sat pulling out my hair as I tried to figure out why index.js couldn’t find my MONGOLAB_URI variable. The devil’s in the details.</p>
+
+<p>With my environment variable working locally, all I had to do was push to Heroku and set my environment variable there. This gave me about an hour of trouble because I set the variable to MONGLAB_URL instead of MONGOLAB_URI. Those details—they’ll cost you a lot of time if you’re not careful.</p>
+
+<h3 id="mongodb-resources">MongoDB Resources</h3>
+<p><a href="https://gist.github.com/iksose/9401758">Creating a REST API using Mongo</a></p>
+
+<p><a href="https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Using-MongoDB-And-Deploying-To-Heroku">Deploying MongoDB to Heroku</a></p>
+
+<p><span id="heroku"></span></p>
+
+<h2 id="heroku">Heroku</h2>
+<p>A few years ago, I used <a href="https://www.heroku.com/">Heroku</a> to deploy my first ever web app. I don’t remember much about that experience, but I do remember feeling slight trepidation at the idea of using Heroku again. Maybe I had difficulties using the CLI, or maybe I just associate Heroku with the frustrations of building my first app. In any case, I was surprised to find that Heroku was a joy to work with on these API projects. I highly recommend it for deploying node apps.</p>
+
+<p>I set up my projects to deploy automatically after I pushed to Github, which made the process super simple. It’s all intuitive, fast, and, best of all, free (<a href="https://www.heroku.com/pricing?c=70130000001xDpdAAE&amp;gclid=CjwKEAjw7ZHABRCTr_DV4_ejvgQSJACr-YcwEIGBF2rwo_3KjpWLKVCzBJ7rLak2I9R5U1a1dyrMbBoCaHXw_wcB">kind of</a>).</p>
+
+<p>I wish I could share some Heroku pro tips, but I didn’t have to mess with it too much. Be sure to check your logs if you run into any difficulties. Beyond that, you should be able to figure everything out through the <a href="https://devcenter.heroku.com/categories/nodejs">official documentation</a>.</p>
+
+    </div>
+
+    
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+
+	    var disqus_shortname = 'devstoryblog';
+
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:cornishmw@gmail.com" target="_blank"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/mCornish" target="_blank"><i class="svg-icon github"></i></a>
+
+
+
+
+<a href="https://www.twitter.com/MikeWCornish"><i class="svg-icon twitter"></i></a>
+
+
+
+
+        </footer>
+      </div>
+    </div>
+
+    <!-- start Mixpanel -->
+<script type="text/javascript">
+(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+mixpanel.init("6da672b6f66f9813757d30f733fa3758");
+</script>
+<!-- end Mixpanel -->
+<script src="/js/analytics.js" type="text/javascript"></script>
+<script type="text/javascript">
+    trackPageview();
+    trackLinks();
+</script>
+
+  </body>
+</html>
