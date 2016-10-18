@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>devStory</title>
-    <description>Tales from a developer/writer</description>
-    <link>http://blog.mikecornish.net</link>
-    <atom:link href="http://blog.mikecornish.net/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Tales from a web developer</description>
+    <link>http://www.devstory.mikecornish.net</link>
+    <atom:link href="http://www.devstory.mikecornish.net/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Building APIs</title>
@@ -120,8 +120,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;p&gt;I wish I could share some Heroku pro tips, but I didn’t have to mess with it too much. Be sure to check your logs if you run into any difficulties. Beyond that, you should be able to figure everything out through the &lt;a href=&quot;https://devcenter.heroku.com/categories/nodejs&quot;&gt;official documentation&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://blog.mikecornish.net/posts/appendix-a/</link>
-        <guid isPermaLink="true">http://blog.mikecornish.net/posts/appendix-a/</guid>
+        <link>http://www.devstory.mikecornish.net/posts/appendix-a/</link>
+        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/appendix-a/</guid>
       </item>
     
       <item>
@@ -155,8 +155,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;p&gt;Here’s another great resource I have bookmarked to use later. I’m not deep into React right now, but I plan to start diving in very soon. I assume this collections of links will prove very useful.&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://blog.mikecornish.net/posts/bibliography-2/</link>
-        <guid isPermaLink="true">http://blog.mikecornish.net/posts/bibliography-2/</guid>
+        <link>http://www.devstory.mikecornish.net/posts/bibliography-2/</link>
+        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/bibliography-2/</guid>
       </item>
     
       <item>
@@ -184,8 +184,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;p&gt;I stopped looking for copywriting jobs after that. It became clear to me that I can’t stop being a web developer. I’m still trying to crawl my way back to where I was before, but it just feels…right. I’m the new kid again, but that feeling is as exciting as it is intimidating. Time to get back to work.&lt;/p&gt;
 </description>
         <pubDate>Mon, 05 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://blog.mikecornish.net/posts/chapter-5/</link>
-        <guid isPermaLink="true">http://blog.mikecornish.net/posts/chapter-5/</guid>
+        <link>http://www.devstory.mikecornish.net/posts/chapter-5/</link>
+        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-5/</guid>
       </item>
     
       <item>
@@ -224,8 +224,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;p&gt;As a final note: A huge shout out to Gary Vaynerchuk for giving me the kick in the ass I needed to finally write this blog post. If you consider yourself ambitious or entrepreneurial, you need to get familiar with Gary; his wisdom is life-changing.&lt;/p&gt;
 </description>
         <pubDate>Mon, 22 Aug 2016 00:00:00 -0400</pubDate>
-        <link>http://blog.mikecornish.net/posts/chapter-4/</link>
-        <guid isPermaLink="true">http://blog.mikecornish.net/posts/chapter-4/</guid>
+        <link>http://www.devstory.mikecornish.net/posts/chapter-4/</link>
+        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-4/</guid>
       </item>
     
       <item>
@@ -303,8 +303,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;p&gt;&lt;strong&gt;Are you a world-changer? Don’t know how to shake conformity? Want more book recommendations? Leave a comment and we can talk!&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 Feb 2016 00:00:00 -0500</pubDate>
-        <link>http://blog.mikecornish.net/posts/chapter-3/</link>
-        <guid isPermaLink="true">http://blog.mikecornish.net/posts/chapter-3/</guid>
+        <link>http://www.devstory.mikecornish.net/posts/chapter-3/</link>
+        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-3/</guid>
       </item>
     
       <item>
@@ -354,8 +354,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;h3&gt;How do you feel about Slim Design? Is it even a thing? Leave a comment and let me know!&lt;/h3&gt;
 </description>
         <pubDate>Tue, 26 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://blog.mikecornish.net/posts/chapter-2/</link>
-        <guid isPermaLink="true">http://blog.mikecornish.net/posts/chapter-2/</guid>
+        <link>http://www.devstory.mikecornish.net/posts/chapter-2/</link>
+        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-2/</guid>
       </item>
     
       <item>
@@ -409,8 +409,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://blog.mikecornish.net/posts/bibliography-1/</link>
-        <guid isPermaLink="true">http://blog.mikecornish.net/posts/bibliography-1/</guid>
+        <link>http://www.devstory.mikecornish.net/posts/bibliography-1/</link>
+        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/bibliography-1/</guid>
       </item>
     
       <item>
@@ -468,8 +468,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;p&gt;&lt;strong&gt;Be ambitious. Find your dreams—your &lt;em&gt;real&lt;/em&gt; dreams. Most importantly, don’t let the Phantoms catch you by surprise.&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 18 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://blog.mikecornish.net/posts/chapter-1/</link>
-        <guid isPermaLink="true">http://blog.mikecornish.net/posts/chapter-1/</guid>
+        <link>http://www.devstory.mikecornish.net/posts/chapter-1/</link>
+        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-1/</guid>
       </item>
     
       <item>
@@ -500,8 +500,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;p&gt;&lt;strong&gt;I’m Mike Cornish. This is devStory. Let’s just do the damn thing.&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://blog.mikecornish.net/posts/chapter-0/</link>
-        <guid isPermaLink="true">http://blog.mikecornish.net/posts/chapter-0/</guid>
+        <link>http://www.devstory.mikecornish.net/posts/chapter-0/</link>
+        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-0/</guid>
       </item>
     
       <item>
@@ -525,8 +525,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;p&gt;Being a freelancer means being a business owner. I find that fact both intimidating and exciting. I also have a long-time project that I’ll be finishing up next year and hopefully turning into a business.&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://blog.mikecornish.net/posts/new-years/</link>
-        <guid isPermaLink="true">http://blog.mikecornish.net/posts/new-years/</guid>
+        <link>http://www.devstory.mikecornish.net/posts/new-years/</link>
+        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/new-years/</guid>
       </item>
     
   </channel>
