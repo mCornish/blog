@@ -60,6 +60,7 @@ h2 {
 h3 {
   font-size: 1.5rem;
   margin-top: 1em;
+  color: mix(white, $color-text-dark, 10);
 }
 
 h4 {
@@ -88,7 +89,7 @@ a:visited:active {
     border-bottom-color: $color-brand-1;
 }
 a:visited {
-  color: $color-link-visited;
+  color: $color-text-dark;
 }
 p a {
     border-bottom: 1px dotted $color-link;
@@ -146,20 +147,15 @@ img {
     color: $color-text-light;
     @include animation(blink 1.2s ease infinite);
 }
-.logo__highlight-hover {
-    position: absolute;
-    top: 0;
-    left: 100em;
-    //@include animation(blink-hover 1.2s ease infinite);
+.logo:hover .logo__active {
+    @include animation(blink-hover 1.2s ease infinite);
 }
 .logo:hover, 
 .logo:hover:visited {
     background-color: mix(black, $color-brand-1, 70);
     color: $color-brand-1;
 }
-.logo:hover .logo__highlight-hover {
-    left: 0;
-}
+
 
 .about {
   font-family: "Courier";
@@ -338,9 +334,11 @@ nav {
   margin: 0;
   font-family: 'Courier';
   font-weight: normal;
+  font-size: 2em;
+  text-align: center;
 }
 .posts .post__header {
-    font-size: 2em;
+    text-align: left;
 }
 
 .post__chapter {
@@ -349,6 +347,7 @@ nav {
 .post__title {
     font-weight: bold;
     font-family: $merriweather-sans;
+    font-size: .8em;
 }
 .post__subtitle {
   font-family: $merriweather-sans;
@@ -358,6 +357,7 @@ nav {
 }
 /*.post*/ .date {
     font-size: .8em;
+    text-align: center;
 } 
 .posts .date {
     font-size: 1em;
@@ -374,6 +374,11 @@ nav {
 
 .image-full {
     margin-bottom: 2em;
+    width: 100%;
+}
+
+pre.highlight {
+    padding: 2em;
 }
 
 .wrapper-footer {
