@@ -1,0 +1,96 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$color-brand-1: rgb(57,154,234);
+$color-brand-2: rgb(135,102,219);
+$color-text-dark: hsl(0,0,40);
+$color-text-light: hsl(0,0,90);
+$color-link: hsl(0,0,0);
+$color-link-visited: hsl(0,0,60);
+
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #eee;
+$white: #fff;
+
+// Font stacks
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+$merriweather: "Merriweather", Georgia, serif;
+$merriweather-sans: "Merriweather Sans", Helvetica, Arial, sans-serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
+
+// Prefixes
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+// Animations
+@include keyframes(blink) {
+    0% {
+        background-color: $color-text-dark;
+        color: $color-text-light;
+    }
+    70% {
+        background-color: $color-text-dark;
+        color: $color-text-light;
+    }
+    71% {
+        background-color: transparent;
+        color: $color-text-dark;
+    }
+    100% {
+        background-color: transparent;
+        color: $color-text-dark;
+    }
+}
+@include keyframes(blink-hover) {
+    0% {
+        background-color: $color-text-dark;
+        color: $color-brand-1
+    }
+    70% {
+        background-color: $color-text-dark;
+        color: $color-brand-1;
+    }
+    71% {
+        background-color: transparent;
+        color: $color-brand-1;
+    }
+    100% {
+        background-color: transparent;
+        color: $color-brand-1;
+    }
+}
