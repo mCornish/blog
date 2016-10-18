@@ -27,11 +27,11 @@ This is the first in a series of “Appendices” which detail the lessons I lea
 
 
 ## Topics
-Overview
-Yarn
-ExpressJS
-MongoDB
-Heroku
+1. Overview
+2. Yarn
+3. ExpressJS
+4. MongoDB
+5. Heroku
 
 ## Overview
 I’m going to be detailing the lessons I learned while completing 5 API projects from the [Free Code Camp](https://www.freecodecamp.com) curriculum. These included microservices for converting timestamp to dates, parsing request headers, shortening URLs, returning Google image search results, and returning metadata from an uploaded file. Most of the end results are fairly useless, but the process of building them was a fantastic learning experience.
@@ -46,8 +46,8 @@ For someone like me, who never got deep into NPM, it’s easy to equate Yarn wit
 
 ### Yarn Resources
 
-https://yarnpkg.com/
-https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/
+[Yarn Official Website](https://yarnpkg.com/)
+[Facebook Announcement](https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/)
 
 
 ## ExpressJS

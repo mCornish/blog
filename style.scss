@@ -59,7 +59,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 h4 {
@@ -138,30 +138,24 @@ img {
     overflow: hidden;
     color: $color-text-dark;
 }
-.logo__highlight {
+
+.logo__active {
     display: inline-block;
     position: relative;
-    color: transparent;
-}
-.logo__highlight-nonhover,
-.logo__highlight-hover {
-    position: absolute;
-    top: 0;
-}
-.logo__highlight-nonhover {
+    background-color: $color-text-dark;
+    color: $color-text-light;
     @include animation(blink 1.2s ease infinite);
 }
 .logo__highlight-hover {
+    position: absolute;
+    top: 0;
     left: 100em;
-    @include animation(blink-hover 1.2s ease infinite);
+    //@include animation(blink-hover 1.2s ease infinite);
 }
 .logo:hover, 
 .logo:hover:visited {
     background-color: mix(black, $color-brand-1, 70);
     color: $color-brand-1;
-}
-.logo:hover .logo__highlight-nonhover {
-    left: 100em;
 }
 .logo:hover .logo__highlight-hover {
     left: 0;

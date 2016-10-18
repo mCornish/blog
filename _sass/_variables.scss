@@ -61,11 +61,11 @@ $merriweather-sans: "Merriweather Sans", Helvetica, Arial, sans-serif;
 @include keyframes(blink) {
     0% {
         background-color: $color-text-dark;
-        color: $color-brand-1;
+        color: $color-text-light;
     }
     70% {
         background-color: $color-text-dark;
-        color: $color-brand-1;
+        color: $color-text-light;
     }
     71% {
         background-color: transparent;
