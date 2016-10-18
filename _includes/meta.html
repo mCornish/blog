@@ -4,8 +4,12 @@
 
     {% if page.image %}
         <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="http://www.devstory.mikecornish.net{{page.image}}">
+        <meta property="og:image" content="http://www.devstory.mikecornish.net{{page.image}}">
     {% else %}
-    <meta name="twitter:card" content="summary">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="http://www.devstory.mikecornish.net/images/social-large.png">
+        <meta property="og:image" content="http://www.devstory.mikecornish.net/images/social-large.png">
     {% endif %}
 
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
@@ -13,13 +17,13 @@
     <meta name="twitter:creator" content="@MikeWCornish">
 
     {% if page.excerpt %}
-      <meta name="description" content="{{ page.excerpt| strip_html }}" />
-      <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
-      <meta name="twitter:description" content="{{ page.excerpt| strip_html }}" />
+      <meta name="description" content="{{ page.excerpt | strip_html }}" />
+      <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
+      <meta name="twitter:description" content="{{ page.excerpt | strip_html }}" />
     {% else %}
-      <meta name="description" content="{{ site.description }}">
-      <meta property="og:description" content="{{ site.description }}" />
-      <meta name="twitter:description" content="{{ site.description }}" />
+      <meta name="description" content="Mike Cornish is a compulsive creator who builds websites.">
+      <meta property="og:description" content="Mike Cornish is a compulsive creator who builds websites." />
+      <meta name="twitter:description" content="Mike Cornish is a compulsive creator who builds websites." />
     {% endif %}
     <meta name="author" content="{{ site.name }}" />
 

@@ -4,6 +4,7 @@ appendix: A
 title: "Building APIs"
 subtitle: "Lessons From Building Express APIs"
 image: "/images/appendix-a.jpg"
+excerpt: "I owe most of my ability as a web developer to bloggers who share their knowledge and experiences. You might wonder why someone would offer valuable information freely, but I’ve found that everyone benefits from sharing information, including the person doing the sharing."
 tags:
   - Appendix
   - API
@@ -39,6 +40,18 @@ This is the first in a series of “appendices” which will detail the lessons 
 I’m going to be detailing the lessons I learned while completing 5 API projects from the [Free Code Camp](https://www.freecodecamp.com) curriculum. These included building microservices for converting timestamps to dates, parsing request headers, shortening URLs, returning Google image search results, and returning metadata from an uploaded file. Most of the end results are fairly useless, but the process of building them was a fantastic learning experience.
 
 The basic process for each project was the same: Set up with npm/Yarn, create endpoints with Express, manage data with Mongo (if necessary), and deploy to Heroku. After determining that basic process, all of the projects became much easier; I even completed a couple of them on the same day. It took some time to get to that point, though. Here are some reasons why.
+
+You can view the final products in these repositories:
+
+[Timestamp](https://github.com/mCornish/timestamp)
+
+[Header Parser](https://github.com/mCornish/header-parser)
+
+[URL Shortener](https://github.com/mCornish/url-shorterner)
+
+[Image Search](https://github.com/mCornish/image-search)
+
+[File Metadata](https://github.com/mCornish/file-metadata)
 
 <span id="yarn"></span>
 
