@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://www.devstory.mikecornish.net/posts/chapter-6/</loc>
+      
+        <lastmod>2017-02-07T00:00:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://www.devstory.mikecornish.net/posts/appendix-a/</loc>
       
         <lastmod>2016-10-17T00:00:00-04:00</lastmod>
@@ -190,7 +205,7 @@
     <url>
       <loc>http://www.devstory.mikecornish.net</loc>
       
-        <lastmod>2016-10-18T15:00:03-04:00</lastmod>
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -218,7 +233,7 @@
     <url>
       <loc>http://www.devstory.mikecornish.net</loc>
       
-        <lastmod>2016-10-18T15:00:03-04:00</lastmod>
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -236,7 +251,7 @@
     <url>
       <loc>http://www.devstory.mikecornish.net</loc>
       
-        <lastmod>2016-10-18T15:00:03-04:00</lastmod>
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -254,7 +269,7 @@
     <url>
       <loc>http://www.devstory.mikecornish.net</loc>
       
-        <lastmod>2016-10-18T15:00:03-04:00</lastmod>
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -272,7 +287,7 @@
     <url>
       <loc>http://www.devstory.mikecornish.net</loc>
       
-        <lastmod>2016-10-18T15:00:03-04:00</lastmod>
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -290,7 +305,7 @@
     <url>
       <loc>http://www.devstory.mikecornish.net</loc>
       
-        <lastmod>2016-10-18T15:00:03-04:00</lastmod>
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -308,7 +323,7 @@
     <url>
       <loc>http://www.devstory.mikecornish.net</loc>
       
-        <lastmod>2016-10-18T15:00:03-04:00</lastmod>
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -326,7 +341,7 @@
     <url>
       <loc>http://www.devstory.mikecornish.net</loc>
       
-        <lastmod>2016-10-18T15:00:03-04:00</lastmod>
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -344,7 +359,7 @@
     <url>
       <loc>http://www.devstory.mikecornish.net</loc>
       
-        <lastmod>2016-10-18T15:00:03-04:00</lastmod>
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -362,7 +377,7 @@
     <url>
       <loc>http://www.devstory.mikecornish.net</loc>
       
-        <lastmod>2016-10-18T15:00:03-04:00</lastmod>
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -380,7 +395,7 @@
     <url>
       <loc>http://www.devstory.mikecornish.net</loc>
       
-        <lastmod>2016-10-18T15:00:03-04:00</lastmod>
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -398,7 +413,7 @@
     <url>
       <loc>http://www.devstory.mikecornish.net</loc>
       
-        <lastmod>2016-10-18T15:00:03-04:00</lastmod>
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -416,7 +431,7 @@
     <url>
       <loc>http://www.devstory.mikecornish.net</loc>
       
-        <lastmod>2016-10-18T15:00:03-04:00</lastmod>
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -434,7 +449,7 @@
     <url>
       <loc>http://www.devstory.mikecornish.net</loc>
       
-        <lastmod>2016-10-18T15:00:03-04:00</lastmod>
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -452,7 +467,25 @@
     <url>
       <loc>http://www.devstory.mikecornish.net</loc>
       
-        <lastmod>2016-10-18T15:00:03-04:00</lastmod>
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    
+
+    
+    <url>
+      <loc>http://www.devstory.mikecornish.net</loc>
+      
+        <lastmod>2017-02-07T17:46:53-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

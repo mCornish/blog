@@ -7,6 +7,35 @@
     <atom:link href="http://www.devstory.mikecornish.net/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>A Heart of 1s and 0s</title>
+        <description>&lt;p&gt;I almost forgot about my fascination with AI. It began back in 2001, when I was still in elementary school. My best friend introduced me to a game called Halo: Combat Evolved. The game followed the death-defying journey of a soldier known only as Master Chief as he slayed aliens on the mysterious ring world of Halo.&lt;/p&gt;
+
+&lt;p&gt;Master Chief was an unmatched fighter, the lone survivor of a government project to create super soldiers. Chief’s only companion—the only ally who dared challenge his authority or ability—was an artificial intelligence named Cortana (the namesake of Microsoft’s not-quite-Siri personal assistant).&lt;/p&gt;
+
+&lt;p&gt;I didn’t think much of Cortana upon my first time playing Halo. For the most part, she was just a female voice that made cheeky remarks and updated Master Chief on mission objectives. As I became more fascinated by Halo, though, I found that it’s AI characters were of my favorite parts.&lt;/p&gt;
+
+&lt;p&gt;My friends made fun of me for reading Halo novels. To them, Halo was just a game. To me, it was an entire universe—a universe filled with space battles, military tactics, valor, and future technology. It was my first love affair with science fiction. As I got older and began to move away from Halo and deeper into sci-fi and fantasy, I always found it impossible for me to imagine a future that wasn’t occupied by a race of AI.&lt;/p&gt;
+
+&lt;p&gt;Toward the end of my senior year of high school, I was accept at Drexel University as a computer science student. I couldn’t wait to dive into Drexel’s AI curriculum. While I was still slugging my way through low-level courses, though, other desires caught my attention. Money pulled me toward computer engineering. Creativity attracted me to web development. Introspection lured me into writing. Over time, I completely forgot I ever wanted to study AI.&lt;/p&gt;
+
+&lt;p&gt;Then, not long ago, an idea suddenly came to me. It wasn’t an original idea or a revolutionary one, but it was crystal clear in my mind—more clear than almost any idea I’ve had since I first laid my eyes on Halo. I would build a business around AI. I didn’t know how I would do it, how long it would take, or where to begin, but I knew it just felt right. Then, as if in confirmation from the universe, I discovered chatbots.&lt;/p&gt;
+
+&lt;p&gt;That pretty much catches us up to today. I’m currently building my first chatbot, a Facebook messenger bot I’ve named Doe Bot. It’s a simple currency converter that probably won’t ever do much more than that. Still, it’s a start. I hope many years from now I will look back on this blog post and remember this as one of the best decisions I’ve ever made.&lt;/p&gt;
+
+&lt;p&gt;In addition to chatbots, I’m also very interested in machine learning and neural networks. Those technologies are way out of my league right now, but I’m looking forward to working my way up to them. Humanity is still a ways off from building a Cortana-level AI, but I can see the potential. Computers are already beginning to think for themselves and perform tasks that I didn’t think computers were capable of performing. I want to be a part of that.&lt;/p&gt;
+
+&lt;p&gt;I can’t believe that I forgot I want to be a part of that.&lt;/p&gt;
+
+&lt;p&gt;Some portion of this blog will now be dedicated to documenting my journey toward building my own Cortana (or Jarvis, because that seems a little less creepy). Considering my negligence in keeping this blog updated over the past few months, I may exclusively post about AI— don’t want to get overambitious.&lt;/p&gt;
+
+&lt;p&gt;A message to my future self: Hi, Future Mike. I’m about to make you really smart.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Feb 2017 00:00:00 -0500</pubDate>
+        <link>http://www.devstory.mikecornish.net/posts/chapter-6/</link>
+        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-6/</guid>
+      </item>
+    
+      <item>
         <title>Building APIs</title>
         <description>&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;A4: Self-reflection helps you keep doing the good things and get rid of the bad things. That&amp;#39;s blogging for me.&lt;a href=&quot;https://twitter.com/hashtag/CodeNewbie?src=hash&quot;&gt;#CodeNewbie&lt;/a&gt; &lt;a href=&quot;https://t.co/iCmLVkvBuT&quot;&gt;https://t.co/iCmLVkvBuT&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mike Cornish (@MikeWCornish) &lt;a href=&quot;https://twitter.com/MikeWCornish/status/786382898807107584&quot;&gt;October 13, 2016&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
@@ -514,31 +543,6 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
         <pubDate>Fri, 15 Jan 2016 00:00:00 -0500</pubDate>
         <link>http://www.devstory.mikecornish.net/posts/chapter-0/</link>
         <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-0/</guid>
-      </item>
-    
-      <item>
-        <title>This Time Next Year:</title>
-        <description>&lt;h2 id=&quot;ill-be-a-blogger-again&quot;&gt;I’ll be a blogger (again)&lt;/h2&gt;
-&lt;p&gt;After reading &lt;a href=&quot;http://alistapart.com/column/write-what-you-know-now?utm_source=CSS-Weekly&amp;amp;utm_campaign=Issue-194&amp;amp;utm_medium=email&quot;&gt;this post&lt;/a&gt;, I was motivated to start blogging about development/design. I’ve had several blogs in the past, so I’m not stranger to this world. However, I don’t consider myself an authority on development or design, so I’ve been reluctant. The plan is to keep this going throughout the year and, ideally, make it into something useful.&lt;/p&gt;
-
-&lt;h2 id=&quot;ill-know-how-to-use-js-promises&quot;&gt;I’ll know how to use JS promises&lt;/h2&gt;
-&lt;p&gt;I’ve never used a promise. Not even once. I’d be ashamed, but I’m honestly not sure how embarrassing this should be.&lt;/p&gt;
-
-&lt;h2 id=&quot;ill-have-a-collection-of-uireact-components&quot;&gt;I’ll have a collection of UI/react components&lt;/h2&gt;
-&lt;p&gt;I envy great UI designers. I made and remade dozens of UI components last year. I plan on doing that much less as time goes on. I’m still learning React, so these components may or may not be of the React variety, but I’m optimistic.&lt;/p&gt;
-
-&lt;h2 id=&quot;ill-have-written-a-js-library&quot;&gt;I’ll have written a JS library&lt;/h2&gt;
-&lt;p&gt;I won’t feel legit until my Github page boasts at least one original library. I have no idea what it will be, but I have a whole year to figure that out.&lt;/p&gt;
-
-&lt;h2 id=&quot;ill-be-a-professional&quot;&gt;I’ll be a professional&lt;/h2&gt;
-&lt;p&gt;I’ve done paid internships in the past, but I want to do this for real. To me, that doesn’t necessarily mean being hired at a company. Ideally, I’ll be working as a freelancer, which brings me to my final point.&lt;/p&gt;
-
-&lt;h2 id=&quot;ill-be-a-business-owner&quot;&gt;I’ll be a business owner&lt;/h2&gt;
-&lt;p&gt;Being a freelancer means being a business owner. I find that fact both intimidating and exciting. I also have a long-time project that I’ll be finishing up next year and hopefully turning into a business.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://www.devstory.mikecornish.net/posts/new-years/</link>
-        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/new-years/</guid>
       </item>
     
   </channel>
