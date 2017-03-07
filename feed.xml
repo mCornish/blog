@@ -7,6 +7,15 @@
     <atom:link href="http://www.devstory.mikecornish.net/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>#FailMore</title>
+        <description>&lt;p&gt;I am proud to say that this chapter was published on one of my favorite web dev blogs, &lt;a href=&quot;https://medium.com/javascript-scene/fail-more-6e7719048618#.7isx9uysr&quot;&gt;Javascript Scene&lt;/a&gt;. Check it out there!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Mar 2017 00:00:00 -0500</pubDate>
+        <link>http://www.devstory.mikecornish.net/posts/chapter-7/</link>
+        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-7/</guid>
+      </item>
+    
+      <item>
         <title>A Heart of 1s and 0s</title>
         <description>&lt;p&gt;I almost forgot about my fascination with AI. It began back in 2001, when I was still in elementary school. My best friend introduced me to a game called Halo: Combat Evolved. The game followed the death-defying journey of a soldier known only as Master Chief as he slayed aliens on the mysterious ring world of Halo.&lt;/p&gt;
 
@@ -511,38 +520,6 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
         <pubDate>Mon, 18 Jan 2016 00:00:00 -0500</pubDate>
         <link>http://www.devstory.mikecornish.net/posts/chapter-1/</link>
         <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-1/</guid>
-      </item>
-    
-      <item>
-        <title>Just Do the Damn Thing</title>
-        <description>&lt;p&gt;Writing the perfect first sentence is damn near impossible. I’ve written two novels, a handful of short stories, and too many blog posts to count. Each time I started writing, I stared at a blank page for several minutes before conceding to the fact that, no, I still hadn’t figured out a way to avoid fudging my opening sentence the first time I write it.&lt;/p&gt;
-
-&lt;p&gt;For me, web development is the exact same way. Starting a project from scratch is by far the most intimidating part of the whole process. Even though I know I’ll end up rewriting and refactoring my code, my brain tells me that I’ve got to figure out everything before I can even begin. Why? The hell if I know. Ironically, brains can be very stupid.&lt;/p&gt;
-
-&lt;p&gt;I created this blog 7 months ago. Before that, I played with the idea of creating a dev blog for at least a month. You’ll notice that, 2/3 of a year after my brain gave birth to the original idea, it’s just now deciding to really do something about it.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;“Why are you blaming your brain? &lt;em&gt;You&lt;/em&gt; control your brain. You can’t fool me!”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;First of all, I thought I was alone here, so you’re sudden outburst startled the shit out of me. Secondly, I’m not trying to fool anyone. Think about it: How often do you &lt;em&gt;want&lt;/em&gt; to do something, but not &lt;em&gt;actually&lt;/em&gt; do it? Hmm, doesn’t sound like you’re in complete control, now &lt;em&gt;does&lt;/em&gt; it?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;“But who is controlling my brain if not me? If I’m not my brain, what am I? What does it mean to be me? WHAT IS LIFE?”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Woah. Woah. Take a breath. There will be plenty of time for existential question in later chapters. This chapter is simply an introduction. As you can see, I’m trying out a different format from other web dev blogs. I’ve got two reason for this:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Gimmicks motivate me&lt;/li&gt;
-  &lt;li&gt;I haven’t figured out what I’m trying to accomplish&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I’m hoping that, as I refine this format, it will become more clear what exactly I want to achieve with this blog. This is definitely a rough start (meta posts are pointless when you don’t have an audience), but that’s the whole idea of this chapter. It’s a beginning, and beginnings are rough. Every. Single. Time.&lt;/p&gt;
-
-&lt;p&gt;Sometimes you just have to suck it up, tell your brain to take a coffee break, and just do the damn the thing.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;I’m Mike Cornish. This is devStory. Let’s just do the damn thing.&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 15 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://www.devstory.mikecornish.net/posts/chapter-0/</link>
-        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-0/</guid>
       </item>
     
   </channel>
