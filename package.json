@@ -4,6 +4,7 @@
   "description": "Mike Cornish's Blog",
   "main": "index.js",
   "scripts": {
+    "start": "jekyll serve",
     "deploy": "gh-pages -d _site"
   },
   "repository": {
