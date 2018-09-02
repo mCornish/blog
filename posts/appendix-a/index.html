@@ -148,9 +148,8 @@
 
 <p>Speaking of speedbumps: I encountered an annoying issue where I would receive a request from the /favicon.ico route every time I refreshed my page. A Google search revealed that this is a somewhat common issue with Express that can be remedied with a one-liner:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>app.use(‘/favicon.ico, res =&gt; res.sendStatus(200));
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>app.use(‘/favicon.ico, res =&gt; res.sendStatus(200));
+</code></pre></div></div>
 
 <p>Even though Express is an amazing tool that is used all over the place, I don’t have much else to say. It’s satisfyingly straightforward (at least in terms of building APIs) and you can learn everything you need by completing ExpressWorks, then referencing <a href="http://expressjs.com/en/api.html">Express’s documentation</a> when you need it.</p>
 
@@ -167,7 +166,7 @@
 
 <p><a href="https://gist.github.com/iksose/9401758">This tutorial</a> was very helpful in getting me off the ground. For me, the most complicated part was figuring out the best way to connect to Mongo in relation to calling my API functions. Ultimately, I connected in index.js and set my endpoints in the callback function, passing in a database object to my API functions:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>MongoClient.connect(MONGO_URL, (err, db) =&gt; {
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>MongoClient.connect(MONGO_URL, (err, db) =&gt; {
     if (err) {
         console.log("Unable to connect to Mongo.");
         process.exit(1);
@@ -180,15 +179,13 @@
         });
     }
 });
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>After that, the next big problem was deployment. I used mLab to host my database. Once you create a new database in mLab, you are provided with a URL through which to connect to your database. Simple, right? Not quite. The URL includes a username and password, which you’ll obviously want to keep secret. So, you need your code to use a URL without actually containing the URL. The solution? Environment variables:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code># On Mac/Linux
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># On Mac/Linux
 export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb”
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><a href="https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Using-MongoDB-And-Deploying-To-Heroku">This guide</a> covers everything I needed to know, but I missed one detail: When you set an environment variable in a terminal, you have to use the same terminal window to start your server and use the variable. Since I’m generally using at least two different terminal instances at any given time, this was a huge pain for me. Twice, I sat pulling out my hair as I tried to figure out why index.js couldn’t find my MONGOLAB_URI variable. The devil’s in the details.</p>
 

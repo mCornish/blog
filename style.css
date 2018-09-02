@@ -610,7 +610,9 @@ twitterwidget {
 }
 
 code {
+  display: block;
   font-family: 'Bitstream Vera Sans Mono','Courier', monospace;
+  text-indent: 0;
 }
 
 .highlight .c {

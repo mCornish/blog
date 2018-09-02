@@ -3,16 +3,94 @@
   <channel>
     <title>devStory</title>
     <description>Tales from a web developer</description>
-    <link>http://www.devstory.mikecornish.net</link>
-    <atom:link href="http://www.devstory.mikecornish.net/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Persist Memory</title>
+        <description>&lt;p&gt;Terminal&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+  $ persist-memory --verbose memory-payload.json devstory.db&lt;br /&gt;
+  Username: mikec&lt;br /&gt;
+  Password:
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+**Initiating memory upload to persistent storage.**&lt;br /&gt;
+Source: Recent Memory&lt;br /&gt;
+Destination: devStory Blog&lt;br /&gt;
+Payload Size: 18 Months
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+Printing verbose output. **DISCLAIMER:** The payload size is too large to print out all stored data. Persist Memory will detect the most poignant memories and display data pertinent to those. To force all data to be displayed use the option “--verbose-all”. Also note that memories will not appear in chronological order.
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;It’s easy to become complacent once you have a steady job. Why bust your hump on personal projects when you’ve got projects going on at work? Why bother blogging or using Twitter when you could be using that time to unwind after work or prepare for the next day of work? I don’t agree with this way of thinking, but I have fallen victim to it.&lt;/p&gt;
+
+&lt;p&gt;I’m going to be a concept artist. It’s been a dream of mine since I was in middle school, and I’ve finally decided to start pursuing it.&lt;/p&gt;
+
+&lt;p&gt;I need to get back to using Twitter.&lt;/p&gt;
+
+&lt;p&gt;[MEMORY ENCRYPTED. REASON: Confidential]&lt;/p&gt;
+
+&lt;p&gt;There can be a large disparity between who you believe you are and how you present yourself. This may seem like an obvious statement, but until you take the time examine what those differences are, you might be fooling yourself into thinking you are someone that you aren’t.&lt;/p&gt;
+
+&lt;p&gt;The lack of empathy in the world is extremely disheartening.&lt;/p&gt;
+
+&lt;p&gt;Docker is amazing! For over a year I’ve been struggling to understand what Docker actually is. Now that I’ve seen what a pain it can be to manage a backend application amongst a team, I’m beginning to understand.&lt;/p&gt;
+
+&lt;p&gt;For several years, I’ve believed that my source of happiness in life was helping others.  While I’ll still believe that’s true to some extent (as it probably is for everyone), I no longer think it’s the most accurate statement. It was nice to think of myself as an altogether selfless person, but I think there was some wishful thinking involved in that conclusion. If I’m being honest, I think my true source of happiness is creativity. I just like to make stuff.&lt;/p&gt;
+
+&lt;p&gt;I’ve decided to become a data scientist.&lt;/p&gt;
+
+&lt;p&gt;I just finished two cups of Anxi Qilan tea from the Wuyi mountains of the Fujian province of China. I’m about to brew a couple more. It’s an oolong tea that smells like a field of flowers and tastes like a mixture of honey and vegetables. If you steep it too long, it quickly grows bitter, but an under-steeped cup is more forgiving.&lt;/p&gt;
+
+&lt;p&gt;[MEMORY ENCRYPTED. REASON: Politically charged]&lt;/p&gt;
+
+&lt;p&gt;Admittedly, intuition isn’t a reliable source of information. It can’t be quantified, graphed, or otherwise analyzed. It is an individual, abstract thing with no conceivable probability of success or failure to anyone other than the intuition-er. Therefore, it’s easy to say that no one should rely on intuition. Heck, who even knows if intuition exists? It’s probably just a word for unconscious thought culminating in a semi-logical conclusion. The fact is, we all feel some form of intuition. So, we can either choose to use it or ignore it. I choose to use it.&lt;/p&gt;
+
+&lt;p&gt;It’s way past time for me to start blogging again.&lt;/p&gt;
+
+&lt;p&gt;I think I might be a stoic. Before today, I didn’t even know what stoicism was, but I think I’m a stoic now.&lt;/p&gt;
+
+&lt;p&gt;I’ve never thought to compare religion and philosophy, but they’re very closely related. If someone chooses to conform to a way of life based on a philosophical belief, how is that any different from following a religion? I’m sure it’s more nuanced than that, but it seems like an apt comparison.&lt;/p&gt;
+
+&lt;p&gt;Why should I pursue art or writing when it is more practical for me to spend my time building applications? I love sketching and I love creating stories, but investing into a skill that already makes me money is simply too practical to ignore.&lt;/p&gt;
+
+&lt;p&gt;I should really start tweeting again. I’m also going to start working on a blog post tonight. And I’m going to actually publish it this time.&lt;/p&gt;
+
+&lt;p&gt;Python is a fantastic language. Don’t tell anyone else I said this, but I might like it even more than JavaScript.&lt;/p&gt;
+
+&lt;p&gt;Complacency is killing me. I need to do something crazy. Wait. No. Not crazy. Something…different.&lt;/p&gt;
+
+&lt;p&gt;[MEMORY ENCRYPTED. REASON: Game of Thrones spoilers]&lt;/p&gt;
+
+&lt;p&gt;Do we love React because it’s better or because it was first? I mean, React is very well established and probably isn’t going anywhere. But Vue is pretty dope.&lt;/p&gt;
+
+&lt;p&gt;My current perspective on the human condition: No matter how many ways people rephrase the idea “Money can’t buy happiness,” people who have not experienced it themselves will not end their pursuit of wealth.&lt;/p&gt;
+
+&lt;p&gt;I’m encouraged by my generation’s appreciation for the importance of mental health.&lt;/p&gt;
+
+&lt;p&gt;I aggressively envy people with an exceptional skill for data visualization.&lt;/p&gt;
+
+&lt;p&gt;547.5 days of memories saved (0.1 days of memories printed).&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Sep 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/chapter-8/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/chapter-8/</guid>
+      </item>
     
       <item>
         <title>#FailMore</title>
         <description>&lt;p&gt;I am proud to say that this chapter was published on one of my favorite web dev blogs, &lt;a href=&quot;https://medium.com/javascript-scene/fail-more-6e7719048618#.7isx9uysr&quot;&gt;Javascript Scene&lt;/a&gt;. Check it out there!&lt;/p&gt;
 </description>
         <pubDate>Tue, 07 Mar 2017 00:00:00 -0500</pubDate>
-        <link>http://www.devstory.mikecornish.net/posts/chapter-7/</link>
-        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-7/</guid>
+        <link>http://localhost:4000/posts/chapter-7/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/chapter-7/</guid>
       </item>
     
       <item>
@@ -40,8 +118,8 @@
 &lt;p&gt;A message to my future self: Hi, Future Mike. I’m about to make you really smart.&lt;/p&gt;
 </description>
         <pubDate>Tue, 07 Feb 2017 00:00:00 -0500</pubDate>
-        <link>http://www.devstory.mikecornish.net/posts/chapter-6/</link>
-        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-6/</guid>
+        <link>http://localhost:4000/posts/chapter-6/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/chapter-6/</guid>
       </item>
     
       <item>
@@ -109,9 +187,8 @@
 
 &lt;p&gt;Speaking of speedbumps: I encountered an annoying issue where I would receive a request from the /favicon.ico route every time I refreshed my page. A Google search revealed that this is a somewhat common issue with Express that can be remedied with a one-liner:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;app.use(‘/favicon.ico, res =&amp;gt; res.sendStatus(200));
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;app.use(‘/favicon.ico, res =&amp;gt; res.sendStatus(200));
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Even though Express is an amazing tool that is used all over the place, I don’t have much else to say. It’s satisfyingly straightforward (at least in terms of building APIs) and you can learn everything you need by completing ExpressWorks, then referencing &lt;a href=&quot;http://expressjs.com/en/api.html&quot;&gt;Express’s documentation&lt;/a&gt; when you need it.&lt;/p&gt;
 
@@ -128,7 +205,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://gist.github.com/iksose/9401758&quot;&gt;This tutorial&lt;/a&gt; was very helpful in getting me off the ground. For me, the most complicated part was figuring out the best way to connect to Mongo in relation to calling my API functions. Ultimately, I connected in index.js and set my endpoints in the callback function, passing in a database object to my API functions:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;MongoClient.connect(MONGO_URL, (err, db) =&amp;gt; {
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;MongoClient.connect(MONGO_URL, (err, db) =&amp;gt; {
     if (err) {
         console.log(&quot;Unable to connect to Mongo.&quot;);
         process.exit(1);
@@ -141,15 +218,13 @@
         });
     }
 });
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;After that, the next big problem was deployment. I used mLab to host my database. Once you create a new database in mLab, you are provided with a URL through which to connect to your database. Simple, right? Not quite. The URL includes a username and password, which you’ll obviously want to keep secret. So, you need your code to use a URL without actually containing the URL. The solution? Environment variables:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# On Mac/Linux
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# On Mac/Linux
 export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb”
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Using-MongoDB-And-Deploying-To-Heroku&quot;&gt;This guide&lt;/a&gt; covers everything I needed to know, but I missed one detail: When you set an environment variable in a terminal, you have to use the same terminal window to start your server and use the variable. Since I’m generally using at least two different terminal instances at any given time, this was a huge pain for me. Twice, I sat pulling out my hair as I tried to figure out why index.js couldn’t find my MONGOLAB_URI variable. The devil’s in the details.&lt;/p&gt;
 
@@ -170,8 +245,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;p&gt;I wish I could share some Heroku pro tips, but I didn’t have to mess with it too much. Be sure to check your logs if you run into any difficulties. Beyond that, you should be able to figure everything out through the &lt;a href=&quot;https://devcenter.heroku.com/categories/nodejs&quot;&gt;official documentation&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://www.devstory.mikecornish.net/posts/appendix-a/</link>
-        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/appendix-a/</guid>
+        <link>http://localhost:4000/posts/appendix-a/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/appendix-a/</guid>
       </item>
     
       <item>
@@ -180,33 +255,33 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 
 &lt;h1 id=&quot;links&quot;&gt;Links&lt;/h1&gt;
 
-&lt;h2 id=&quot;google-fights-pop-upshttpswebmastersgoogleblogcom201608helping-users-easily-access-content-onhtml&quot;&gt;&lt;a href=&quot;https://webmasters.googleblog.com/2016/08/helping-users-easily-access-content-on.html&quot;&gt;Google Fights Pop-ups&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;google-fights-pop-ups&quot;&gt;&lt;a href=&quot;https://webmasters.googleblog.com/2016/08/helping-users-easily-access-content-on.html&quot;&gt;Google Fights Pop-ups&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;It’s almost worrying how much power Google holds over the internet, but as long as they keep working in our favor, I suppose we’ll just keep ruling over us. Last month, Google made a play for the hearts of UX designers everywhere by telling everyone’s clients to chill out with the pop-ups because, seriously, your users hate them. I mean, you can do whatever you want, but Google’s going to derank your page if you don’t comply.&lt;/p&gt;
 
-&lt;h2 id=&quot;web-developer-checklisthttpwebdevchecklistcom&quot;&gt;&lt;a href=&quot;http://webdevchecklist.com&quot;&gt;Web Developer Checklist&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;web-developer-checklist&quot;&gt;&lt;a href=&quot;http://webdevchecklist.com&quot;&gt;Web Developer Checklist&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;If you regularly make websites from start to finish, you may not need this. Then again, maybe you’ve been missing steps and you don’t know it. Web Developer checklist reminds you of all the steps you probably want to take before sending your project out into the web. I haven’t used it yet, but it seems like a smart bookmark.&lt;/p&gt;
 
-&lt;h2 id=&quot;the-new-rules-of-form-designhttpwwwuxboothcomarticlesthe-new-rules-of-form-design&quot;&gt;&lt;a href=&quot;http://www.uxbooth.com/articles/the-new-rules-of-form-design/&quot;&gt;The New Rules of Form Design&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;the-new-rules-of-form-design&quot;&gt;&lt;a href=&quot;http://www.uxbooth.com/articles/the-new-rules-of-form-design/&quot;&gt;The New Rules of Form Design&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;There are a million ways to design and build a form, but almost all of them are seriously flawed. If you want to design forms that are proven to work from a UX perspective, this article is a great place to start.&lt;/p&gt;
 
-&lt;h2 id=&quot;create-react-apphttpsgithubcomfacebookincubatorcreate-react-app&quot;&gt;&lt;a href=&quot;https://github.com/facebookincubator/create-react-app&quot;&gt;Create React App&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;create-react-app&quot;&gt;&lt;a href=&quot;https://github.com/facebookincubator/create-react-app&quot;&gt;Create React App&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;Starting a new project can be one of the worst parts of web development, especially if you work with a lot of libraries. Automation tools like this one are extremely useful for getting started without the initial speedbump. It’s supported by a lot of great developers, so you can count on it to set you up for success.&lt;/p&gt;
 
-&lt;h2 id=&quot;git-extrashttpsgithubcomtjgit-extras&quot;&gt;&lt;a href=&quot;https://github.com/tj/git-extras&quot;&gt;Git Extras&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;git-extras&quot;&gt;&lt;a href=&quot;https://github.com/tj/git-extras&quot;&gt;Git Extras&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;I rarely use git to it’s full potential. Even now, I’m working from my main branch and rarely create branches for anything other than major refactors that I’m afraid might screw up everything. Git Extras makes it easy to follow best practices like creating branches for issues. I’m going to start using it as soon as I finish writing this.&lt;/p&gt;
 
-&lt;h2 id=&quot;react-faqhttpsgithubcomtimarneyreact-faq&quot;&gt;&lt;a href=&quot;https://github.com/timarney/react-faq&quot;&gt;React FAQ&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;react-faq&quot;&gt;&lt;a href=&quot;https://github.com/timarney/react-faq&quot;&gt;React FAQ&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;Here’s another great resource I have bookmarked to use later. I’m not deep into React right now, but I plan to start diving in very soon. I assume this collections of links will prove very useful.&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://www.devstory.mikecornish.net/posts/bibliography-2/</link>
-        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/bibliography-2/</guid>
+        <link>http://localhost:4000/posts/bibliography-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/bibliography-2/</guid>
       </item>
     
       <item>
@@ -234,8 +309,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;p&gt;I stopped looking for copywriting jobs after that. It became clear to me that I can’t stop being a web developer. I’m still trying to crawl my way back to where I was before, but it just feels…right. I’m the new kid again, but that feeling is as exciting as it is intimidating. Time to get back to work.&lt;/p&gt;
 </description>
         <pubDate>Mon, 05 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://www.devstory.mikecornish.net/posts/chapter-5/</link>
-        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-5/</guid>
+        <link>http://localhost:4000/posts/chapter-5/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/chapter-5/</guid>
       </item>
     
       <item>
@@ -274,8 +349,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;p&gt;As a final note: A huge shout out to Gary Vaynerchuk for giving me the kick in the ass I needed to finally write this blog post. If you consider yourself ambitious or entrepreneurial, you need to get familiar with Gary; his wisdom is life-changing.&lt;/p&gt;
 </description>
         <pubDate>Mon, 22 Aug 2016 00:00:00 -0400</pubDate>
-        <link>http://www.devstory.mikecornish.net/posts/chapter-4/</link>
-        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-4/</guid>
+        <link>http://localhost:4000/posts/chapter-4/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/chapter-4/</guid>
       </item>
     
       <item>
@@ -353,8 +428,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;p&gt;&lt;strong&gt;Are you a world-changer? Don’t know how to shake conformity? Want more book recommendations? Leave a comment and we can talk!&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 Feb 2016 00:00:00 -0500</pubDate>
-        <link>http://www.devstory.mikecornish.net/posts/chapter-3/</link>
-        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-3/</guid>
+        <link>http://localhost:4000/posts/chapter-3/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/chapter-3/</guid>
       </item>
     
       <item>
@@ -404,8 +479,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;h3&gt;How do you feel about Slim Design? Is it even a thing? Leave a comment and let me know!&lt;/h3&gt;
 </description>
         <pubDate>Tue, 26 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://www.devstory.mikecornish.net/posts/chapter-2/</link>
-        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-2/</guid>
+        <link>http://localhost:4000/posts/chapter-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/chapter-2/</guid>
       </item>
     
       <item>
@@ -414,35 +489,35 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 
 &lt;h1 id=&quot;links&quot;&gt;Links&lt;/h1&gt;
 
-&lt;h2 id=&quot;meteor-guidehttpguidemeteorcom&quot;&gt;&lt;a href=&quot;http://guide.meteor.com&quot;&gt;Meteor Guide&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;meteor-guide&quot;&gt;&lt;a href=&quot;http://guide.meteor.com&quot;&gt;Meteor Guide&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;I’ve been building apps with &lt;a href=&quot;https://www.meteor.com&quot;&gt;MeteorJS&lt;/a&gt; for almost a year now. In that time, it has become clear that a major limitation of Meteor is that it isn’t opinionated. There is no “Meteor Way” to build apps. Meteor Guide is a step in the right direction, offering Meteor developers a common way of handling popular problems.&lt;/p&gt;
 
-&lt;h2 id=&quot;velocity-reacthttpsgithubcomtwitter-fabricvelocity-react&quot;&gt;&lt;a href=&quot;https://github.com/twitter-fabric/velocity-react&quot;&gt;Velocity-React&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;velocity-react&quot;&gt;&lt;a href=&quot;https://github.com/twitter-fabric/velocity-react&quot;&gt;Velocity-React&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;I’ve only recently started looking into UI animation. Though I haven’t had a chance to actually use &lt;a href=&quot;http://julian.com/research/velocity/&quot;&gt;VelocityJS&lt;/a&gt; yet, this integration with React makes me excited to give it a try. Making animations from scratch can be less than thrilling, and I’d be happy to do away with it.&lt;/p&gt;
 
-&lt;h2 id=&quot;why-i-left-gulp-and-grunt-for-npm-scriptshttpsmediumcomhousecorwhy-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8xkw6bxg3y&quot;&gt;&lt;a href=&quot;https://medium.com/@housecor/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8#.xkw6bxg3y&quot;&gt;Why I Left Gulp and Grunt for npm Scripts&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;why-i-left-gulp-and-grunt-for-npm-scripts&quot;&gt;&lt;a href=&quot;https://medium.com/@housecor/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8#.xkw6bxg3y&quot;&gt;Why I Left Gulp and Grunt for npm Scripts&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;Though I haven’t used &lt;a href=&quot;http://gulpjs.com&quot;&gt;GulpJS&lt;/a&gt; much recently, I have used it often in the past and recognize its utility. I find it interesting that a step backward toward &lt;a href=&quot;https://www.npmjs.com&quot;&gt;NPM&lt;/a&gt; seems to actually be taking a step forward.&lt;/p&gt;
 
-&lt;h2 id=&quot;whats-the-difference-between-class--prototypal-inheritancehttpsmediumcomjavascript-scenemaster-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9vsmk7q14h&quot;&gt;&lt;a href=&quot;https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9#.vsmk7q14h&quot;&gt;What’s the Difference Between Class &amp;amp; Prototypal Inheritance?&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;whats-the-difference-between-class--prototypal-inheritance&quot;&gt;&lt;a href=&quot;https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9#.vsmk7q14h&quot;&gt;What’s the Difference Between Class &amp;amp; Prototypal Inheritance?&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;Eric Elliot has been blowing my mind lately. He’s very good at explaining important and complicated Javascript topics in a way that an intermediate developer can understand. You should absolutely catch up with his &lt;em&gt;Master the Javascript Interview&lt;/em&gt; series.&lt;/p&gt;
 
-&lt;h2 id=&quot;variables-the-backbone-of-css-architecturehttpswwwsmashingmagazinecom201601variables-in-css-architecture&quot;&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2016/01/variables-in-css-architecture/&quot;&gt;Variables: The Backbone of CSS Architecture&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;variables-the-backbone-of-css-architecture&quot;&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2016/01/variables-in-css-architecture/&quot;&gt;Variables: The Backbone of CSS Architecture&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;I get an unusual amount of pleasure out of having ultra-maintainable CSS. This article highlights one way that thoughtful CSS can greatly improve the process of developing and maintaining a project.&lt;/p&gt;
 
-&lt;h2 id=&quot;lostpasshttpswwwseancassidymelostpasshtml&quot;&gt;&lt;a href=&quot;https://www.seancassidy.me/lostpass.html&quot;&gt;LostPass&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;lostpass&quot;&gt;&lt;a href=&quot;https://www.seancassidy.me/lostpass.html&quot;&gt;LostPass&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;If you use LastPass, you’re definitely going to want to read about this vulnerability (and maybe consider using a different password manager). I love when programmers take controversial action for a good cause.&lt;/p&gt;
 
-&lt;h2 id=&quot;dailyveehttpswwwyoutubecomplaylistlistplfa33-e9p7fa-a72qkbw3nowuqbavxqsd&quot;&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLfA33-E9P7FA-A72QKBw3noWuQbaVXqSD&quot;&gt;DailyVee&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;dailyvee&quot;&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLfA33-E9P7FA-A72QKBw3noWuQbaVXqSD&quot;&gt;DailyVee&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;If you’re an entrepreneur, you should be following Gary Vaynerchuk. He isn’t a web developer, but he’s one hell of a businessman and he loves to share his knowledge (for FREE). I highly encourage you to watch the first episode of DailyVee and see whether you’re interested in more.&lt;/p&gt;
 
-&lt;h2 id=&quot;how-the-voices-behind-your-favorite-games-and-show-are-inventing-live-ddhttpwwwpolygoncomfeatures201611110589378how-the-voices-behind-your-favorite-games-and-shows-are-re-inventing&quot;&gt;&lt;a href=&quot;http://www.polygon.com/features/2016/1/11/10589378/how-the-voices-behind-your-favorite-games-and-shows-are-re-inventing&quot;&gt;How the Voices Behind Your Favorite Games and Show Are Inventing Live D&amp;amp;D&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;how-the-voices-behind-your-favorite-games-and-show-are-inventing-live-dd&quot;&gt;&lt;a href=&quot;http://www.polygon.com/features/2016/1/11/10589378/how-the-voices-behind-your-favorite-games-and-shows-are-re-inventing&quot;&gt;How the Voices Behind Your Favorite Games and Show Are Inventing Live D&amp;amp;D&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;I’ve never tried to hide the fact that I’m a geek. In fact, I basically started my web development career on that fact. Well, nothing is much geekier than &lt;a href=&quot;http://geekandsundry.com/shows/critical-role/&quot;&gt;Critical Role&lt;/a&gt;. It’s D&amp;amp;D with fantastic voice actors, and it’s easily my favorite show right now. Read this Polygon article to learn more.&lt;/p&gt;
 
@@ -459,67 +534,8 @@ export MONGOLAB_URI=“mongodb://username:password@foo123.mlab.com:1234/foobardb
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://www.devstory.mikecornish.net/posts/bibliography-1/</link>
-        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/bibliography-1/</guid>
-      </item>
-    
-      <item>
-        <title>The Phantom Dream</title>
-        <description>&lt;p&gt;Dreams are the greatest fuel to keep us going through the inevitable rough patches in our lives, but some dreams are false. Some dreams are fear in disguise. Some dreams don’t belong to us at all, but to the people we dread to disappoint.&lt;/p&gt;
-
-&lt;p&gt;Somewhere in our minds, our true dreams are waiting to be found, but they can often be veiled by these false dreams—these Phantom Dreams.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;“Phantom Dreams? What is this nonsense?”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Web development was nowhere on my radar for the first 18 years of my life. When I was younger, I wanted to be an architect. I wanted to give life to skyscrapers and deliver modern marvels to the world. I wanted to…wait, no, I didn’t want any of that. I just wanted to play video games.&lt;/p&gt;
-
-&lt;p&gt;One of those video games was called &lt;em&gt;Roller Coaster Tycoon&lt;/em&gt;. The premise was simple: Build an amusement park and make a bunch of money. I played this game so frequently that my father, always forward-thinking, suggested that I turn it into a career. I, still Little Mike, didn’t know what I wanted and certainly didn’t care about the future, so I went along with it.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;“You didn’t answer my question. What is a Phantom Dream?”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;You see, my father inadvertently created a Phantom Dream in my head. Over the years, I became convinced that I wanted to make a lot of money designing and building stuff for a living. Perhaps not coincidentally, that’s what I do now as a web developer (minus the money part), but that &lt;em&gt;isn’t&lt;/em&gt; my dream, and never was.&lt;/p&gt;
-
-&lt;p&gt;My dream is to create things that change the world. Any dreams that exists outside of that area of my brain are Phantoms.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;“Sounds like semantics to me. Why should I care about what &lt;em&gt;kind&lt;/em&gt; of dreams I have?”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s assume you’re a web developer. Maybe you’re successful, maybe you’re not. Regardless, you consider yourself component and you enjoy doing what you’re doing. That’s great, but what happens when you hit a wall?&lt;/p&gt;
-
-&lt;p&gt;What keeps you going when you can’t find your next client, or when you see your peers doing significantly better than you, or when you’re drowning in student debt?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;“Dreams? Do dreams keep us going?”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;No! Well, kind of. &lt;em&gt;Phantom&lt;/em&gt; Dreams keep us going. At least, they do at first.&lt;/p&gt;
-
-&lt;p&gt;My first few years of college were tough, but I never complained. I was going to be a computer engineer! I was going to make so much money! My parents would be so proud! Whenever I would start to be crushed by the weight of hours and hours of work and studying, I just kept my eyes on the prize: The big bucks! The endless family vacations! The pride and  the happiness!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;“So…Phantom Dreams &lt;em&gt;aren’t&lt;/em&gt; bad?”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Phantom Dreams are inevitable. They’re neither good nor bad—they’re just part of the human condition. However, they become a problem when they’re all you’ve got. When you don’t have &lt;em&gt;real&lt;/em&gt; dreams to take the place of Phantoms when they dissipate, &lt;em&gt;that’s&lt;/em&gt; bad.&lt;/p&gt;
-
-&lt;p&gt;Web development is always changing. There’s always new technology, new trends, new opportunities. It’s exciting, but it’s also unpredictable. At any time, your Phantoms may become insufficient. When that happens, you’ll either be left with genuine dreams…or nothing.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;“W-what happens when you’re left with nothing?”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Fortunately, I don’t know what happens when you hit that valley; it hasn’t happened to me. It almost did, though.&lt;/p&gt;
-
-&lt;p&gt;About a year ago, I started taking the hardest classes I’ve ever had the misfortune of being forced into. That wouldn’t have been so bad if I’d been learning about stuff I gave a single damn about. That’s when I realized, 4 years too late, I absolutely did NOT want to be an engineer.&lt;/p&gt;
-
-&lt;p&gt;I almost gave up. I almost dropped out. My Phantom had disappeared and attempted to leave me alone to face the sudden emptiness. Fortunately, I had a dream that filled the empty spaces. That’s when I began to explore what I could accomplish long-term as a web developer, with or without a degree. Could a web developer change the world for the better?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;“Sounds like a stretch. Change &lt;em&gt;the world&lt;/em&gt;? Get real.”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The best dreams are the most ambitious ones. They’re &lt;a href=&quot;https://www.youtube.com/watch?v=CPQZas5WqTQ&quot; target=&quot;_blank&quot;&gt;the dreams that we won’t accomplish unless we work our butts off&lt;/a&gt;. They’re the dreams that yank us up by our collar when we fall. They’re the dreams that will flood the empty spaces of our mind when our Phantoms disappear.&lt;/p&gt;
-
-&lt;p&gt;My life is currently in flux. I’m hoping to finish my education online and get a degree I actually want for a much lower cost than my previous college. I’m also timidly looking for work, reluctant to take on anything that may interfere with school.&lt;/p&gt;
-
-&lt;p&gt;Through it all, though, I’m clutching to my dream. &lt;em&gt;I will create things that change the world&lt;/em&gt;. That’s why I wake up earlier every day. That’s why I’m networking more and more. That’s why I created this blog.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Be ambitious. Find your dreams—your &lt;em&gt;real&lt;/em&gt; dreams. Most importantly, don’t let the Phantoms catch you by surprise.&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 18 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://www.devstory.mikecornish.net/posts/chapter-1/</link>
-        <guid isPermaLink="true">http://www.devstory.mikecornish.net/posts/chapter-1/</guid>
+        <link>http://localhost:4000/posts/bibliography-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/bibliography-1/</guid>
       </item>
     
   </channel>
