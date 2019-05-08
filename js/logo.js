@@ -1,9 +1,9 @@
 'use strict';
 
-function initLogo() {
+(function initLogo() {
     bindEvents();
     placeCursor();
-}
+})()
 
 function placeCursor() {
     const $logo = document.querySelector('[data-logo]');
