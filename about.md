@@ -11,6 +11,6 @@ Some of my most notable accomplishments include working on a Best in Show award-
 For me, there’s always more to do, more to learn. There’s always the next project, the next idea. Someday I’ll start working on a way to fit more hours into the day; until then, I’ll just keep pushing myself to get more done.
 
 ### Have a question? Want to work together? Let me know:
-[cornishmw@gmail.com](mailto:cornishmw@gmail.com)
+[mike.cornish@coderemail.com](mailto:mike.cornish@coderemail.com)
 
 [@MikeWCornish](https://twitter.com/MikeWCornish)

@@ -11,7 +11,7 @@
     "url": "https://github.com/mCornish/blog.git",
     "type": "git"
   },
-  "author": "Mike Cornish <cornishmw@gmail.com>",
+  "author": "Mike Cornish <mike.cornish@coderemail.com>",
   "license": "MIT",
   "devDependencies": {
     "gh-pages": "^1.2.0"

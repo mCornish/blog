@@ -1,0 +1,5 @@
+<a class="logo" href="{{ metadata.url }}/" data-logo>{{ metadata.title }}</a>
+{% set js %}
+  {% include "assets/js/logo.js" %}
+{% endset %}
+<script>{{ js | jsmin | safe }}</script>

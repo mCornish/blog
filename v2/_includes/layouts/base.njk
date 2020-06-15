@@ -1,0 +1,27 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
+	{% include "components/head.njk" %}
+
+	<body>
+
+		<header>
+			<div class="site-info">
+					<h1 class="site-name">{% include "components/logo.njk" %}</h1>
+				<p class="site-description">{{ metadata.description }}</p>
+			</div>
+
+			<nav>
+				<a class="about" href="https://www.mikecornish.me">mikeCornish</a>
+			</nav>
+		</header>
+
+		<main>
+			{{ layoutContent | safe }}
+		</main>
+
+		{% include "components/footer.njk" %}
+
+	</body>
+
+</html>
