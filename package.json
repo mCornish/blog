@@ -1,0 +1,19 @@
+{
+  "name": "cornish-blog",
+  "version": "1.0.0",
+  "description": "Mike Cornish's Blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "jekyll serve --destination docs",
+    "deploy": "gh-pages -d doc"
+  },
+  "repository": {
+    "url": "https://github.com/mCornish/blog.git",
+    "type": "git"
+  },
+  "author": "Mike Cornish <cornishmw@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
