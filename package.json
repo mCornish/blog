@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "jekyll serve --destination docs",
-    "deploy": "gh-pages -d doc"
+    "deploy": "gh-pages -d docs"
   },
   "repository": {
     "url": "https://github.com/mCornish/blog.git",
